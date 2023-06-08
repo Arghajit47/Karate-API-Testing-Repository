@@ -1,4 +1,4 @@
-Feature: Patch Activitie
+Feature: Put Activitie
 
 Background:
     * def id = 47
