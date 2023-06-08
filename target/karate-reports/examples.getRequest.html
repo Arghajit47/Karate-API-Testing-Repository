@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("2f5c720b-fa52-472e-ae77-aeb58c95636b",{name:"arghas"});
+    posthog.capture("report_feature",{karate_version:"1.3.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>examples.getRequest</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2023-06-08 11:43:54 AM</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:5]"><span>[1:5]</span> <span>Get All Users</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">examples/getRequest.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Trying to execute GET request</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:5]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:5]</span>
+                <span class="scenario-name">Get All Users</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1761</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:5]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:5]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://gorest.co.in/public/v2/users&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">11:43:53.068 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1752</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6">11:43:53.620 request:
+1 &gt; GET https://gorest.co.in/public/v2/users
+1 &gt; Host: gorest.co.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.18)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+11:43:54.827 response time in milliseconds: 1202
+1 &lt; 200
+1 &lt; Date: Thu, 08 Jun 2023 06:13:54 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; etag: W/&quot;4db7400398a3653e338ffc5de4c69d5a&quot;
+1 &lt; referrer-policy: strict-origin-when-cross-origin
+1 &lt; vary: Origin
+1 &lt; x-content-type-options: nosniff
+1 &lt; x-download-options: noopen
+1 &lt; x-frame-options: SAMEORIGIN
+1 &lt; x-links-current: https://gorest.co.in/public/v2/users?page=1
+1 &lt; x-links-next: https://gorest.co.in/public/v2/users?page=2
+1 &lt; x-links-previous: 
+1 &lt; x-pagination-limit: 10
+1 &lt; x-pagination-page: 1
+1 &lt; x-pagination-pages: 279
+1 &lt; x-pagination-total: 2788
+1 &lt; x-permitted-cross-domain-policies: none
+1 &lt; x-request-id: 86e7df78-f617-4d19-958f-4f8fe8b7b6a0
+1 &lt; x-runtime: 0.042665
+1 &lt; x-xss-protection: 0
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=6IHkxBuhPWQxEYpjHrwU0k%2BAu%2FPps0zQGeFqsKm0ioJhERLd1sC9B7LF%2F9GmOqL1azPxl6aI5HTsBYjAoi1xfR4KC4J8TWqIeKuw2Nq0ldwHrBDARAO6v3r9u%2F59yVg%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7d3efdd5fb502bca-FRA
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+[{&quot;id&quot;:2635484,&quot;name&quot;:&quot;Mrs. Shreya Kapoor&quot;,&quot;email&quot;:&quot;kapoor_mrs_shreya@walker.example&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;id&quot;:2635482,&quot;name&quot;:&quot;Chinmayananda Trivedi&quot;,&quot;email&quot;:&quot;trivedi_chinmayananda@baumbach-shanahan.example&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2635480,&quot;name&quot;:&quot;Akula Mishra&quot;,&quot;email&quot;:&quot;mishra_akula@abbott-prohaska.example&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2635479,&quot;name&quot;:&quot;Ms. Adheesh Kocchar&quot;,&quot;email&quot;:&quot;kocchar_ms_adheesh@feeney.example&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2565240,&quot;name&quot;:&quot;Miss Ekaksh Dutta&quot;,&quot;email&quot;:&quot;dutta_miss_ekaksh@maggio.test&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;active&quot;},{&quot;id&quot;:2565233,&quot;name&quot;:&quot;Gaurang Tandon&quot;,&quot;email&quot;:&quot;tandon_gaurang@schmitt.example&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;id&quot;:2565230,&quot;name&quot;:&quot;Ananda Rana&quot;,&quot;email&quot;:&quot;ananda_rana@rolfson-goodwin.test&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;id&quot;:2565225,&quot;name&quot;:&quot;Krishna Guha&quot;,&quot;email&quot;:&quot;guha_krishna@veum.example&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;id&quot;:2565224,&quot;name&quot;:&quot;Arjun Bhattathiri&quot;,&quot;email&quot;:&quot;bhattathiri_arjun@haag.test&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;inactive&quot;},{&quot;id&quot;:2565223,&quot;name&quot;:&quot;Mohinder Trivedi&quot;,&quot;email&quot;:&quot;mohinder_trivedi@corwin.example&quot;,&quot;gender&quot;:&quot;male&quot;,&quot;status&quot;:&quot;active&quot;}]
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">11:43:54.844 [print] [
+  {
+    &quot;id&quot;: 2635484,
+    &quot;name&quot;: &quot;Mrs. Shreya Kapoor&quot;,
+    &quot;email&quot;: &quot;kapoor_mrs_shreya@walker.example&quot;,
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;id&quot;: 2635482,
+    &quot;name&quot;: &quot;Chinmayananda Trivedi&quot;,
+    &quot;email&quot;: &quot;trivedi_chinmayananda@baumbach-shanahan.example&quot;,
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  },
+  {
+    &quot;id&quot;: 2635480,
+    &quot;name&quot;: &quot;Akula Mishra&quot;,
+    &quot;email&quot;: &quot;mishra_akula@abbott-prohaska.example&quot;,
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  },
+  {
+    &quot;id&quot;: 2635479,
+    &quot;name&quot;: &quot;Ms. Adheesh Kocchar&quot;,
+    &quot;email&quot;: &quot;kocchar_ms_adheesh@feeney.example&quot;,
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  },
+  {
+    &quot;id&quot;: 2565240,
+    &quot;name&quot;: &quot;Miss Ekaksh Dutta&quot;,
+    &quot;email&quot;: &quot;dutta_miss_ekaksh@maggio.test&quot;,
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  },
+  {
+    &quot;id&quot;: 2565233,
+    &quot;name&quot;: &quot;Gaurang Tandon&quot;,
+    &quot;email&quot;: &quot;tandon_gaurang@schmitt.example&quot;,
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;id&quot;: 2565230,
+    &quot;name&quot;: &quot;Ananda Rana&quot;,
+    &quot;email&quot;: &quot;ananda_rana@rolfson-goodwin.test&quot;,
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;id&quot;: 2565225,
+    &quot;name&quot;: &quot;Krishna Guha&quot;,
+    &quot;email&quot;: &quot;guha_krishna@veum.example&quot;,
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;id&quot;: 2565224,
+    &quot;name&quot;: &quot;Arjun Bhattathiri&quot;,
+    &quot;email&quot;: &quot;bhattathiri_arjun@haag.test&quot;,
+    &quot;gender&quot;: &quot;female&quot;,
+    &quot;status&quot;: &quot;inactive&quot;
+  },
+  {
+    &quot;id&quot;: 2565223,
+    &quot;name&quot;: &quot;Mohinder Trivedi&quot;,
+    &quot;email&quot;: &quot;mohinder_trivedi@corwin.example&quot;,
+    &quot;gender&quot;: &quot;male&quot;,
+    &quot;status&quot;: &quot;active&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
